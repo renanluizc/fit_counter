@@ -1,0 +1,48 @@
+name: fit_counter
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.10.0
+  cloud_firestore: ^3.1.0
+  image_picker: ^0.8.4+4
+  firebase_storage: ^10.1.0
+  firebase_auth: ^3.2.0
+  google_sign_in: ^5.2.1
+  geolocator: ^7.7.1
+  uuid: ^3.0.5
+  image: ^3.0.8
+  animator: ^3.1.0
+  path_provider: ^2.0.7
+  firebase_messaging: ^11.1.0
+  timeago: ^3.1.0
+  cached_network_image: ^3.1.0+1
+  flutter_svg: ^0.23.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Signatra
+      fonts:
+        - asset: assets/fonts/Signatra.ttf
+  assets:
+    - assets/images/google_signin_button.png
+    - assets/images/upload.svg
+    - assets/images/search.svg
+    - assets/images/activity_feed.svg
+    - assets/images/no_content.svg
